@@ -1,0 +1,30 @@
+{
+  "name": "liberusoftware/automation-voice-api",
+  "description": "HTTP API adapter for module-automation-voice.",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "illuminate/support": "^13.38.0",
+    "laravel/framework": "^13.38.0",
+    "liberusoftware/automation-voice": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Modules\\Automation\\Voice\\Api\\": "src/"
+    }
+  },
+  "extra": {
+    "liberu": {
+      "name": "module-automation-voice-api"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^5.3.3"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
